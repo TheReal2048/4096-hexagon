@@ -2,7 +2,7 @@
  html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
+  background: #ff00ff;
   color: #776e65;
   font-family:"Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
@@ -59,7 +59,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #bb00a0;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -119,7 +119,7 @@ strong.important {
 }
 hr {
   border: none;
-  border-bottom: 1px solid #d8d4d0;
+  border-bottom: 1px solid #d800d0;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -159,7 +159,7 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: #bbada0;
+  background: #bb00a0;
   border-radius: 6px;
   width: 620px;
   height: 574px;
@@ -197,7 +197,7 @@ hr {
 }
 .game-container .game-message a {
   display: inline-block;
-  background: #8f7a66;
+  background: #8f0066;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -373,39 +373,39 @@ hr {
 }
 .tile .tile-inner {
   border-radius: 100%;
-  background: #eee4da;
+  background: #ee00da;
   text-align: center;
   font-weight: bold;
   z-index: 10;
   font-size: 55px;
 }
 .tile.tile-2 .tile-inner {
-  background: #eee4da;
+  background: #ee00da;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
 }
 .tile.tile-4 .tile-inner {
-  background: #ede0c8;
+  background: #ed00c8;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
 }
 .tile.tile-8 .tile-inner {
   color: #f9f6f2;
-  background: #f2b179;
+  background: #f20079;
 }
 .tile.tile-16 .tile-inner {
   color: #f9f6f2;
-  background: #f59563;
+  background: #f50063;
 }
 .tile.tile-32 .tile-inner {
   color: #f9f6f2;
-  background: #f67c5f;
+  background: #f6005f;
 }
 .tile.tile-64 .tile-inner {
   color: #f9f6f2;
-  background: #f65e3b;
+  background: #f6003b;
 }
 .tile.tile-128 .tile-inner {
   color: #f9f6f2;
-  background: #edcf72;
+  background: #ed0072;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
   font-size: 45px;
 }
@@ -416,7 +416,7 @@ hr {
 }
 .tile.tile-256 .tile-inner {
   color: #f9f6f2;
-  background: #edcc61;
+  background: #ed0061;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
   font-size: 45px;
 }
@@ -427,7 +427,7 @@ hr {
 }
 .tile.tile-512 .tile-inner {
   color: #f9f6f2;
-  background: #edc850;
+  background: #ed0050;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
   font-size: 45px;
 }
@@ -438,7 +438,7 @@ hr {
 }
 .tile.tile-1024 .tile-inner {
   color: #f9f6f2;
-  background: #edc53f;
+  background: #ed003f;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
   font-size: 35px;
 }
@@ -449,7 +449,7 @@ hr {
 }
 .tile.tile-2048 .tile-inner {
   color: #f9f6f2;
-  background: #edc22e;
+  background: #ed002e;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
   font-size: 35px;
 }
@@ -460,7 +460,7 @@ hr {
 }
 .tile.tile-super .tile-inner {
   color: #f9f6f2;
-  background: #3c3a32;
+  background: #3c0032;
   font-size: 30px;
 }
 @media screen and (max-width: 520px) {
